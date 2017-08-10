@@ -19,7 +19,7 @@ In case you want to skip test use : mvn clean install -DskipTests
 
 Then run the jar you got in your target : java -jar jar-name
 
-###Tests
+## Test
 
 On postman to test races service particpants method : http://localhost:8282/races/participants
 On postman to test races service default method : http://localhost:8282/races

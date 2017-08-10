@@ -19,7 +19,7 @@ In case you want to skip test use : mvn clean install -DskipTests
 
 Then run the jar you got in your target : java -jar jar-name
 
-###Tests
+## Test
 
 go to http://localhost:8383/hystrix
 Enter the URL http://localhost:8080/hystrix.stream, and click Monitor Stream.
