@@ -1,0 +1,7 @@
+server:
+  port: 8333
+
+turbine:
+  appConfig: web,races
+  aggregator:
+    clusterConfig: WEB,RACES
