@@ -12,7 +12,7 @@ com-hystrix-turbin : hystrix (to monitor the circuit breakers) and turbine (to m
 
 com-participants : a micro service register it self on eureka and contain two rest methods
 
-com-race : a micro service register it self on eureka , contains the circuit breaker (to return default response in case a service failed) and feign client to
+com-race : a micro service register it self on eureka , contains the circuit breaker (to return default response in case a service failed) and feign client as  a declarative web service client
 
 com-web-entry :  a micro service register it self on eureka and act as project entry point contains Zuul (in order not to access each service by specific ip and pot , you only access com-web-entry and you can access other services by name)
 
